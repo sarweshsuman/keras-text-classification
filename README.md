@@ -11,5 +11,5 @@ keras_predict.py predicts the class of new sentences. The order of class in the 
 
 To call keras_predict.py
 
-python keras_predict.py <MODEL_PATH> <TOKENIZER_PATH> <SENTENCE IN DOUBLE QUOTES>
+python keras_predict.py <MODEL_PATH> <TOKENIZER_PATH> <SENTENCE_IN_DOUBLE_QUOTES>
 
