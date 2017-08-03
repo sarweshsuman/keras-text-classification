@@ -1,7 +1,7 @@
 
 Text Classification using Keras
 
-keras_cnn_text.py is cnn model in keras , it uses 1 conv layer and 1 max pooling layer. There is only one filter used. Right now keras does
+keras_cnn_model.py is cnn model in keras , it uses 1 conv layer and 1 max pooling layer. There is only one filter used. Right now keras does
 not have support for multiple conv+maxpooling layer working on same input. 
 
 keras_train.py creates x_train and y_train. It reads from a directory where each file as some sentences and those sentences 
