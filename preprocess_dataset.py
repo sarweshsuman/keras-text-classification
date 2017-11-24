@@ -1,3 +1,7 @@
+"""
+This is preprocessing code for specific use case, can be udpated to work with other use case as well.
+"""
+
 import sys
 from nltk.stem.porter import PorterStemmer
 porter_stemmer = PorterStemmer()
