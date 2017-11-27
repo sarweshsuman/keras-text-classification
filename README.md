@@ -45,5 +45,5 @@ It includes model in following sequence
 - Dropout
 - Dense ( final layer ) 6 as output
 
-### In my dataset, I was able to reach till validation accuracy of 0.8888888955116272
+### In my dataset, I was able to reach max validation accuracy of 0.8888888955116272
 
