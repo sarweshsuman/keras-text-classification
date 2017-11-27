@@ -17,6 +17,7 @@ I have included different versions of cnn model and keras_train file here,
 ## v0.1
 
 keras_train_v0.1.py --> includes KFold cross validation code, classification_report and confusion matrix created on the best model from cross validation.
+
 keras_cnn_model_v0.1.py  --> additional code ( commented right now ) for using Adam optimizer and another layer of convolution with attention layer at the top.
 
 
