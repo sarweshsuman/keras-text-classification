@@ -16,9 +16,34 @@ I have included different versions of cnn model and keras_train file here,
 
 ## v0.1
 
-keras_train_v0.1.py --> includes KFold cross validation code, classification_report and confusion matrix created on the best model from cross validation.
+### keras_train_v0.1.py
 
-keras_cnn_model_v0.1.py  --> additional code ( commented right now ) for using Adam optimizer and another layer of convolution with attention layer at the top.
+Includes KFold cross validation code, classification_report and confusion matrix created on the best model from cross validation.
 
+### keras_cnn_model_v0.1.py
 
+Additional code ( commented right now ) for using Adam optimizer and another layer of convolution with attention layer at the top.
+
+## v0.2
+
+### keras_train_v0.2.py 
+
+Includes what revision 0.1 had, additionally it contains code to include pre-trained glove vector using code from glove_vocab.py
+
+### keras_cnn_model_v0.2.py
+
+It includes model in following sequence
+
+- Embedding Layer ( includes pretrained glove vector if supplied )
+- Convolution 1D  kernel = 1 , stride = 1
+- MaxPooling 1D   patch = 3 , stride = 1
+- Dropout
+- Convolution 1D  kernel = 2 , stride = 1
+- MaxPooling 1D   patch = 2 , stride = 1
+- Dropout
+- Dense           256 as output 
+- Dropout
+- Dense ( final layer ) 6 as output
+
+### In my dataset, I was able to reach till validation accuracy of 0.8888888955116272
 
