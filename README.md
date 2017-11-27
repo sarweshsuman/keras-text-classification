@@ -32,7 +32,7 @@ Includes what revision 0.1 had, additionally it contains code to include pre-tra
 
 ### keras_cnn_model_v0.2.py
 
-It includes model in following sequence
+It includes layer in following sequence
 
 - Embedding Layer ( includes pretrained glove vector if supplied )
 - Convolution 1D  kernel = 1 , stride = 1
